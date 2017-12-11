@@ -28,7 +28,7 @@ Find the element with the class name of "profile":
 	- Replace the content with a verse from your favorite Prince song
 	- Change the styles of the font-family to Sans Serif
 */
-document.getElementsByClassName("profile")[0].innerHTML = "I don't even know";
+document.getElementsByClassName("profile")[0].innerHTML = '"I don\'t even know"';
 document.getElementsByClassName("profile")[0].style.fontFamily = "Sans Serif";
 /*5. Bruce Lee
 
@@ -36,7 +36,7 @@ Find the element with the class name of "profile":
 	- Replace the content with a quote from the legend himself
 */
 
-document.getElementsByClassName("profile")[1].innerHTML = "Be Like Water";
+document.getElementsByClassName("profile")[1].innerHTML = '"Be Like Water"';
 
 /*6. Samuel L Jackson
 
@@ -68,13 +68,35 @@ duncan.innerHTML = "Old Man";
 document.getElementById("aliasParent").appendChild(duncan); 
 //Final Boss
 /*9. Without modifying the HTML file, create your own profile.*/
+
+//Name
 var own = document.getElementsByClassName("block3 col-sm-4");
 var des = document.createElement("P"); 
-des.innerHTML = "You Cucked me Kelii";
+des.innerHTML = "My Favorite Neighbhor";
 own[2].appendChild(des);
-own[2].childNodes[0].src = "http://www.smh.com.au/content/dam/images/g/q/8/l/k/d/image.imgtype.articleLeadwide.620x349.png";
+own[2].childNodes[0].src = "https://www.fredrogers.org/frc/sites/default/files/styles/large/public/field/image/Snapshot000008.png?itok=PXBeqiML";
+
+//Description
+var own0 = document.getElementsByClassName("block3 col-sm-4");
+var des0 = document.createElement("P");
+des0.innerHTML = "Uncaughtable";
+own0[2].appendChild(des0);
+
+//Location
+var own0 = document.getElementsByClassName("block3 col-sm-4");
+var des0 = document.createElement("P");
+des0.innerHTML = "DownTown";
+own0[2].appendChild(des0);
+
+//Quote
+var own0 = document.getElementsByClassName("block3 col-sm-4");
+var des0 = document.createElement("P");
+des0.innerHTML = '"Won\'t you be my Neighbhor"';
+own0[2].appendChild(des0);
 
 
 
+
+//Array Ex
 var arr =[3,2,1,4,4,9];
 console.log(arr[3]);
